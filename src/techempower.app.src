@@ -1,0 +1,9 @@
+{application, techempower, [
+        {description, "techempower benchmark for naga web framework"
+                      "http://www.techempower.com/benchmarks/#section=code"},
+        {vsn, "0.0.1"},
+        {modules, []},
+        {registered, []},
+        {applications, [kernel, stdlib, naga]},
+        {env, []}
+    ]}.

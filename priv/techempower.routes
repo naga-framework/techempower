@@ -1,0 +1,6 @@
+{"/json",     [{application, techempower},{controller, "bench"}, {action, "json"}]}.
+{"/plaintext",[{application, techempower},{controller, "bench"}, {action, "plaintext"}]}. 
+{"/db",       [{application, techempower},{controller, "bench"}, {action, "db"}]}.
+{"/queries",  [{application, techempower},{controller, "bench"}, {action, "queries"}]}.
+{"/fortunes", [{application, techempower},{controller, "bench"}, {action, "fortunes"}]}.
+{"/updates",  [{application, techempower},{controller, "bench"}, {action, "updates"}]}.

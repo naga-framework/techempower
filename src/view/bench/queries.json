@@ -1,0 +1,4 @@
+[{% for id,number in result %}
+ {"id":{{id}},"randomNumber":{{number}}}
+ {% if not forloop.last %},{% endif %}
+{% endfor %}]

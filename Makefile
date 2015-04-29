@@ -1,4 +1,4 @@
 default: escript
 escript:
-	./mad deps compile 
+	mad dep com
 .PHONY: escript

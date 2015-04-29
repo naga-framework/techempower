@@ -1,3 +1,10 @@
 % Routes file.
-{404, [{application, naga},{controller, "indexof"}]}.
+{"/json",     [{application, techempower},{controller, "bench"}, {action, "json"}]}.
+{"/plaintext",[{application, techempower},{controller, "bench"}, {action, "plaintext"}]}. 
+{"/db",       [{application, techempower},{controller, "bench"}, {action, "db"}]}.
+{"/queries",  [{application, techempower},{controller, "bench"}, {action, "queries"}]}.
+{"/fortunes", [{application, techempower},{controller, "bench"}, {action, "fortunes"}]}.
+{"/updates",  [{application, techempower},{controller, "bench"}, {action, "updates"}]}.
+
+%{404, [{application, naga},{controller, "indexof"}]}.
 {"/", [{application, techempower },{controller, "index"},{action, "index"}]}.

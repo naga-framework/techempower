@@ -1,0 +1,28 @@
+{
+    "framework": "naga",
+    "tests": [{
+        "default": {
+            "setup_file": "setup",
+            "json_url": "/json",
+            "db_url": "/db",
+            "query_url": "/queries?queries=",
+            "fortune_url": "/fortune",
+            "update_url": "/update?queries=",
+            "plaintext_url": "/plaintext",
+            "port": 8080,
+            "approach": "Realistic",
+            "classification": "Micro",
+            "database": "Postgres",
+            "framework": "Naga",
+            "language": "erlang",
+            "orm": "kvs",
+            "platform": "Erlang/OTP",
+            "webserver": "cowboy",
+            "os": "Linux",
+            "database_os": "Linux",
+            "display_name": "Naga",
+            "notes": "",
+            "versus": ""
+        }
+    }]
+}

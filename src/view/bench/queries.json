@@ -1,1 +1,0 @@
-[{% for row in result %}{"id":{{row.id}},"randomNumber":{{row.number}}}{% if not forloop.last %},{% endif %}{% endfor %}]

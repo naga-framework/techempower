@@ -1,0 +1,19 @@
+%%%% TECHEMPOWER TEST URL
+%%"json_url"     : "/json",
+%%"db_url"       : "/db",
+%%"query_url"    : "/queries?queries=",
+%%"fortune_url"  : "/fortune",
+%%"update_url"   : "/update?queries=",
+%%"plaintext_url": "/plaintext",
+
+%%%% NAGA BENCH URL
+[
+  {"/plaintext", [{controller, bench}, {action, plaintext}],  []}
+ ,{"/json",      [{controller, bench}, {action, json}],       []}
+ ,{"/db",        [{controller, bench}, {action, db}],         []}
+ ,{"/queries",   [{controller, bench}, {action, queries}],    []}
+ ,{"/fortune",   [{controller, bench}, {action, fortune}],    []}
+ ,{"/update",    [{controller, bench}, {action, update}],     []}
+ ,{"/",          [{controller, bench}, {action, plain}],      []}
+ ,{"/[...]",     [{controller, error}, {action, '404'}],      []}
+].

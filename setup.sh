@@ -2,7 +2,7 @@
 
 sed -i 's|"benchmarkdbpass", ".*", 3306|"benchmarkdbpass", "'"${DBHOST}"'", 3306|g' sys.config
 
-fw_depends erlang
+fw_depends erlang18
 
 #rm -rf deps/* ebin/*
 

@@ -11,7 +11,7 @@ The tests were run with:
 
 * [Cowboy 1.0.1](https://github.com/ninenines/cowboy)
 * [Erlang 18](http://www.erlang.org/)
-* [kvs](http://synrc.com/) [mnesia,postgres]
+* [kvs](http://synrc.github.io/kvs/) [mnesia,postgres]
 
 ## Test URLs
 ###  Plain Test

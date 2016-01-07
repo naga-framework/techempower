@@ -9,10 +9,9 @@ This is the Naga portion of a [benchmarking test suite](../) comparing a variety
 ## Infrastructure Software Versions
 The tests were run with:
 
-* [Cowboy 1.0.3](https://github.com/ninenines/cowboy)
+* [Cowboy 1.0.1](https://github.com/ninenines/cowboy)
 * [Erlang 18](http://www.erlang.org/)
-* [MySQL 5.5.29](https://dev.mysql.com/)
-* [kvs](http://synrc.com/) [mnesia,riak,postgres]
+* [kvs](http://synrc.com/) [mnesia,postgres]
 
 ## Test URLs
 ###  Plain Test

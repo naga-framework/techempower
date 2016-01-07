@@ -3,8 +3,8 @@
 This is the Naga portion of a [benchmarking test suite](../) comparing a variety of web development platforms.
 
 ### Techempower Test Controller 
-* [routes](priv/techempower.routes)
-* [index test controller](src/controller/index.erl)
+* [routes](apps/techempower/priv/techempower.routes)
+* [bench controller](apps/techempower/src/controller/bench.erl)
 
 ## Infrastructure Software Versions
 The tests were run with:

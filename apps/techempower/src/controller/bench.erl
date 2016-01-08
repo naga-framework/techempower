@@ -3,7 +3,7 @@
 -include_lib("naga/include/naga.hrl").
 
 -session(false).
--default_action(plain).
+-default_action(plaintext).
 -actions([plain,json,queries,db,fortune,update]).
 
 plaintext(<<"GET">>, _, _) -> {output, <<"Hello, world!">>, ?CTYPE_PLAIN}.

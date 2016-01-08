@@ -4,7 +4,7 @@
 
 -session(false).
 -default_action(plain).
--action([plain,json,queries,db,fortune,update]).
+-actions([plain,json,queries,db,fortune,update]).
 
 plaintext(<<"GET">>, _, _) -> {output, <<"Hello, world!">>, ?CTYPE_PLAIN}.
 json     (<<"GET">>, _, _) -> {{json,dtl}, [{message, <<"Hello, World!">>}]}. 

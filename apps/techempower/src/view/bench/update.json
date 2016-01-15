@@ -1,1 +1,1 @@
-[{% for row in result %}{"id":{{row.id}},"randomNumber":{{row.number}}}{% if not forloop.last %},{% endif %}{% endfor %}]
+[{% for row in result.rows %}{"id":{{row.id}},"randomNumber":{{row.number}}}{% if not forloop.last %},{% endif %}{% endfor %}]

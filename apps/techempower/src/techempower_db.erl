@@ -8,5 +8,5 @@
 metainfo() ->
     #schema{name=techempower,tables=[
          #table{name=fortune, container=feed,fields=record_info(fields,fortune), keys=[]},
-         #table{name=world,   container=feed,fields=record_info(fields,world),   keys=[]}
+         #table{name=world,   container=feed,fields=record_info(fields,world),   keys=[randomNumber]}
     ]}.

@@ -27,11 +27,11 @@ fortune    (<<"GET">>, _, _) -> {ok, F} = kvs:get(fortune, id()),
 
 %% ----------------- internal function.              
 queries()    -> Queries = (catch wf:to_integer(wf:q(queries))),
-	    		case {is_number(Queries), Queries > 500} of
-	        		{true, true} -> 500;
-	        		{false, _}   -> 1;
-	        		_ -> Queries
-	    		end.
+                case {is_number(Queries), Queries > 500} of
+	            {true, true} -> 500;
+	            {false, _}   -> 1;
+	             _ -> Queries
+	        end.
 
 %% list of unique id to update/read
 id()      -> random:uniform(10000).

@@ -13,9 +13,9 @@ plaintext(<<"GET">>, _, _) -> {output, <<"Hello, world!">>, ?CTYPE_PLAIN}.
 %% use dtl to render json
 json       (<<"GET">>, _, _) -> {json, [{message, <<"Hello, World!">>}]}. 
 queries    (<<"GET">>, _, _) -> Queries = queries(),
-								Data = [world:get(Id) || Id <- ids(Queries)], 
-								Rows = [{rows,Data}],
-								{json, dtl, [{body, Rows}]}.
+                                Data = [world:get(Id) || Id <- ids(Queries)], 
+                                Rows = [{rows,Data}],
+                                {json, dtl, [{body, Rows}]}.
 update     (<<"GET">>, _, _) -> Queries = queries(),
                                 Data = [world:new(Id) || Id <- ids(Queries)], 
                                 Rows = [{rows,Data}],

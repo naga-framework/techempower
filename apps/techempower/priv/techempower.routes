@@ -14,6 +14,6 @@
  ,{"/queries",   [{controller, bench}, {action, queries}],    []}
  ,{"/fortune",   [{controller, bench}, {action, fortune}],    []}
  ,{"/update",    [{controller, bench}, {action, update}],     []}
- ,{"/",          [{controller, bench}, {action, plain}],      []}
+ ,{"/",          [{controller, bench}, {action, plaintext}],  []}
  ,{"/[...]",     [{controller, error}, {action, '404'}],      []}
 ].
